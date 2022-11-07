@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zomato-Clone</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- style -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- js -->
+    <link rel="stylesheet" href="./assets/js/script.js">
+</head>
+
+<body>
+    <div class="main">
+        <div class="banner-box">
+            <div class="banner">
+                <!-- container starts -->
+                <div class="container">
+
+                    <!-- nav starts -->
+                    <nav class="navbar navbar-expand-lg">
+                        <div class="container-fluid">
+                            <a class="d-lg-inline-block d-md-none d-none text-white navbar-brand" href="#">
+                                <i class="fa-solid fa-mobile"></i>
+                                <span>Get the App</span>
+                            </a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="d-lg-none d-md-block zomato-top">
+                                <a href="text-dark">ZOMATO</a>
+
+                            </div>
+
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="zom-nav navbar-nav ms-auto mb-2 mb-lg-0">
+                                    <li class="nav-item">
+                                        <a class="nav-link zom-link" aria-current="page" href="#">Investor Relations</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link zom-link" href="#">Add restaurant</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link zom-link" href="#">Log in</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link zom-link" href="#">Sign up</a>
+                                    </li>
+                                    <!-- <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                            aria-expanded="false">
+                                            Dropdown
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Action</a></li>
+                                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                                            <li>
+                                                <hr class="dropdown-divider">
+                                            </li>
+                                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                        </ul>
+                                    </li> -->
+                                </ul>
+                                <!-- <form class="d-flex" role="search">
+                                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                    <button class="btn btn-outline-success" type="submit">Search</button>
+                                </form> -->
+                            </div>
+                        </div>
+                    </nav>
+                    <!-- nav ends -->
+
+
+                    <div class="main-box">
+                        <!-- banner Heading starts -->
+                        <div class="main-heading text-center">
+                            <h1 class="text-white zomato">
+                                <img src="./assets/images/zomato.avif" class="img-fluid" alt="">
+                            </h1>
+                            <p class="subtitle">
+                                Discover the best food & drinks in Mumbai
+                            </p>
+                        </div>
+                        <!-- banner Heading ends -->
+
+                        <!-- search-box starts -->
+                        <div class="bg-light container seachbox-container">
+                            <div class="row">
+                                <div class="col-4">
+                                    <div class="location">
+                                        <i class="fa-solid fa-location-dot"></i>
+                                        <input type="text" placeholder="Mumbai">
+                                    </div>
+                                </div>
+                                <div class="col-8">
+                                    Search
+                                </div>
+                            </div>
+                        </div>
+                        <!-- search-box ends -->
+                    </div>
+
+
+                </div>
+                <!-- container ends -->
+            </div>
+        </div>
+
+
+        <!-- content start -->
+        <div class="zom-data pt-5">
+            <div class="container">
+
+                <!-- zom-cards starts -->
+                <div class="zom-cards">
+                    <div class="row row-cols-md-3 row-cols-1 gy-3">
+                        <div class="col">
+                            <div class="card">
+                                <div class="card-img">
+                                    <img src="./assets/images/cards1.avif" class="card-img-top" alt="...">
+
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Order Online</h5>
+                                    <p class="card-text">Stay home and order to your doorstep</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <div class="card-img">
+                                    <img src="./assets/images/cards2.avif" class="card-img-top" alt="...">
+
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Dining</h5>
+                                    <p class="card-text">View the city's favourite dining venues</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <div class="card-img">
+                                    <img src="./assets/images/cards3.avif" class="card-img-top" alt="...">
+
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Nightlife and Clubs</h5>
+                                    <p class="card-text">Explore the city’s top nightlife outlets</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- zom-cards ends -->
+            </div>
+
+            <!-- .zomato-collections-starts -->
+            <div class="container mt-5">
+                <div class="zomato-collection">
+                    <div class="zom-coll-title">
+                        <h2>Collections</h2>
+                    </div>
+                    <div class="zom-coll-data d-flex justify-content-between">
+                        <div class="zom-coll-para">
+                            <h6>Explore curated lists of top restaurants, cafes, pubs, and bars in Mumbai, based on
+                                trends</h6>
+                        </div>
+                        <div class="zol-colls d-lg-block d-none">
+                            <a>All Collections in Mumbai</a> <span><i class="fa-solid fa-caret-right"></i></span>
+                        </div>
+                    </div>
+
+
+
+                    <div class="zom-cards">
+                        <div class="row row-cols-md-4 row-cols-1 gy-3">
+                            <div class="col">
+                                <div class="card">
+                                    <div class="card-img">
+                                        <img src="./assets/images/cardcoll1.avif" class="card-img-top" alt="...">
+
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Order Online</h5>
+                                        <p class="card-text">Stay home and order to your doorstep</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <div class="card-img">
+                                        <img src="./assets/images/cardcoll2.avif" class="card-img-top" alt="...">
+
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Dining</h5>
+                                        <p class="card-text">View the city's favourite dining venues</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <div class="card-img">
+                                        <img src="./assets/images/cardcoll3.avif" class="card-img-top" alt="...">
+
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Nightlife and Clubs</h5>
+                                        <p class="card-text">Explore the city’s top nightlife outlets</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <div class="card-img">
+                                        <img src="./assets/images/cardcoll4.avif" class="card-img-top" alt="...">
+
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Nightlife and Clubs</h5>
+                                        <p class="card-text">Explore the city’s top nightlife outlets</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+            <!-- .zomato-collections-ends -->
+
+
+
+
+            <!-- popular cities 2 starts -->
+            <div class="container mt-5">
+
+
+                <div class="popular-cities">
+                    <p class="pop-mum">Popular localities in and around <span>Mumbai</span></p>
+                </div>
+
+                <!-- zom-cards starts -->
+                <div class="zom-cards">
+                    <div class="row row-cols-md-3 row-cols-1 gy-3">
+                        <div class="col">
+                            <div class="card p-2">
+                                <div class="card-img">
+                                    <div class="d-flex justify-content-between">
+                                        <div class="zom-pop-city">
+                                            <p>Lower Parel</p>
+                                            <p>382 Places</p>
+                                        </div>
+                                        <div class="zom-pop-link">
+                                            <span>
+                                                <i class="fa-solid fa-caret-right"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card p-2">
+                                <div class="card-img">
+                                    <div class="d-flex justify-content-between">
+                                        <div class="zom-pop-city">
+                                            <p>Lower Parel</p>
+                                            <p>382 Places</p>
+                                        </div>
+                                        <div class="zom-pop-link">
+                                            <span>
+                                                <i class="fa-solid fa-caret-right"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card p-2">
+                                <div class="card-img">
+                                    <div class="d-flex justify-content-between">
+                                        <div class="zom-pop-city">
+                                            <p>Lower Parel</p>
+                                            <p>382 Places</p>
+                                        </div>
+                                        <div class="zom-pop-link">
+                                            <span>
+                                                <i class="fa-solid fa-caret-right"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card p-2">
+                                <div class="card-img">
+                                    <div class="d-flex justify-content-between">
+                                        <div class="zom-pop-city">
+                                            <p>Lower Parel</p>
+                                            <p>382 Places</p>
+                                        </div>
+                                        <div class="zom-pop-link">
+                                            <span>
+                                                <i class="fa-solid fa-caret-right"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card p-2">
+                                <div class="card-img">
+                                    <div class="d-flex justify-content-between">
+                                        <div class="zom-pop-city">
+                                            <p>Lower Parel</p>
+                                            <p>382 Places</p>
+                                        </div>
+                                        <div class="zom-pop-link">
+                                            <span>
+                                                <i class="fa-solid fa-caret-right"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card p-2">
+                                <div class="card-img">
+                                    <div class="d-flex justify-content-between">
+                                        <div class="zom-pop-city">
+                                            <p>Lower Parel</p>
+                                            <p>382 Places</p>
+                                        </div>
+                                        <div class="zom-pop-link">
+                                            <span>
+                                                <i class="fa-solid fa-caret-right"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card p-2">
+                                <div class="card-img">
+                                    <div class="d-flex justify-content-between">
+                                        <div class="zom-pop-city">
+                                            <p>Lower Parel</p>
+                                            <p>382 Places</p>
+                                        </div>
+                                        <div class="zom-pop-link">
+                                            <span>
+                                                <i class="fa-solid fa-caret-right"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card p-2">
+                                <div class="card-img">
+                                    <div class="d-flex justify-content-between">
+                                        <div class="zom-pop-city">
+                                            <p>Lower Parel</p>
+                                            <p>382 Places</p>
+                                        </div>
+                                        <div class="zom-pop-link">
+                                            <span>
+                                                <i class="fa-solid fa-caret-right"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card p-2">
+                                <div class="card-img">
+                                    <div class="d-flex justify-content-between">
+                                        <div class="zom-pop-city">
+                                            <p>Lower Parel</p>
+                                            <p>382 Places</p>
+                                        </div>
+                                        <div class="zom-pop-link">
+                                            <span>
+                                                <i class="fa-solid fa-caret-right"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card p-2">
+                                <div class="card-img">
+                                    <div class="d-flex justify-content-between">
+                                        <div class="zom-pop-city">
+                                            <p>Lower Parel</p>
+                                            <p>382 Places</p>
+                                        </div>
+                                        <div class="zom-pop-link">
+                                            <span>
+                                                <i class="fa-solid fa-caret-right"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- zom-cards ends -->
+            </div>
+            <!-- popular cities 2 ends -->
+
+
+
+
+            <!-- Zomato-app-down-starts -->
+            <div class="get-zom-app" style="background-color:rgb(255, 251, 247);">
+                <div class="container mt-5">
+                    <div class="row row-cols-md-2 row-cols-1 ">
+                        <div class="col">
+                            <figure>
+                                <img class="align-middle img-fluid" src="./assets/images/zomato-app1.avif" alt="">
+                            </figure>
+                        </div>
+                        <div class="col pt-3">
+                            <div class="zom-app-content">
+                                <h1 class="py-2">Get the Zomato app</h1>
+                                <p class="py-2">We will send you a link, open it on your phone to download the app</p>
+                                <div class="checkbox-email-no d-flex">
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                            id="inlineRadio1" value="option1">
+                                        <label class="form-check-label" for="inlineRadio1">Email</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                            id="inlineRadio2" value="option2">
+                                        <label class="form-check-label" for="inlineRadio2">Phone</label>
+                                    </div>
+                                </div>
+
+                                <form class="row g-2 pt-3">
+                                    <div class="col-auto">
+                                        <label for="inputPassword2" class="visually-hidden">Password</label>
+                                        <input type="email" class="form-control" id="inputPassword2"
+                                            placeholder="Email">
+                                    </div>
+                                    <div class="col-auto">
+                                        <button type="submit" class="btn btn-danger mb-3">Share App Link</button>
+                                    </div>
+                                </form>
+
+                                <div class="zom-app-down">
+                                    <p>Download app from </p>
+                                    <div class="zom-app-link-down ">
+                                        <div class="android d-flex">
+                                            <img style="width:30%;" src="./assets/images/app-down1.webp" alt=""
+                                                class="px-3 img-fluid">
+                                            <img style="width:30%;" src="./assets/images/app-down2.webp" alt=""
+                                                class="img-fluid">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Zomato-app-down-ends -->
+
+
+            <!-- explore-zomato-starts -->
+            <div class="container mt-5">
+                <div class="dropdowns-btns p-2">
+                    <div class="dropdown">
+                        <button style="width:100%" class="text-start p-3 btn btn-light dropdown-toggle" type="button"
+                            id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown button
+                        </button>
+                        <div style="width:100%;" class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            <span>Bakeries near meBars near meBeverage Shops near meBhojanalya near meCafés near
+                                meCasual Dining near meClubs near meCocktail Bars near meConfectioneries near meDessert
+                                Parlors near meDhabas near meFine Dining near meFood Courts near meFood Trucks near
+                                meIrani Cafes near meKiosks near meLounges near meMicrobreweries near mePaan Shop near
+                                mePubs near meQuick Bites near meShacks near meSweet Shops near me</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="dropdowns-btns p-2">
+                    <div class="dropdown">
+                        <button style="width:100%" class="text-start p-3 btn btn-light dropdown-toggle" type="button"
+                            id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown button
+                        </button>
+                        <div style="width:100%;" class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            <span>Bakeries near meBars near meBeverage Shops near meBhojanalya near meCafés near
+                                meCasual Dining near meClubs near meCocktail Bars near meConfectioneries near meDessert
+                                Parlors near meDhabas near meFine Dining near meFood Courts near meFood Trucks near
+                                meIrani Cafes near meKiosks near meLounges near meMicrobreweries near mePaan Shop near
+                                mePubs near meQuick Bites near meShacks near meSweet Shops near me</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="dropdowns-btns p-2">
+                    <div class="dropdown">
+                        <button style="width:100%" class="text-start p-3 btn btn-light dropdown-toggle" type="button"
+                            id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown button
+                        </button>
+                        <div style="width:100%;" class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            <span>Bakeries near meBars near meBeverage Shops near meBhojanalya near meCafés near
+                                meCasual Dining near meClubs near meCocktail Bars near meConfectioneries near meDessert
+                                Parlors near meDhabas near meFine Dining near meFood Courts near meFood Trucks near
+                                meIrani Cafes near meKiosks near meLounges near meMicrobreweries near mePaan Shop near
+                                mePubs near meQuick Bites near meShacks near meSweet Shops near me</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="dropdowns-btns p-2">
+                    <div class="dropdown">
+                        <button style="width:100%" class="text-start p-3 btn btn-light dropdown-toggle" type="button"
+                            id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown button
+                        </button>
+                        <div style="width:100%;" class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            <span>Bakeries near meBars near meBeverage Shops near meBhojanalya near meCafés near
+                                meCasual Dining near meClubs near meCocktail Bars near meConfectioneries near meDessert
+                                Parlors near meDhabas near meFine Dining near meFood Courts near meFood Trucks near
+                                meIrani Cafes near meKiosks near meLounges near meMicrobreweries near mePaan Shop near
+                                mePubs near meQuick Bites near meShacks near meSweet Shops near me</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- explore-zomato-ends -->
+
+
+
+            <!-- Zomato-footer-starts -->
+            <footer class="zom-footer-data pt-3" style="background-color:rgb(248, 248, 248);">
+                <div class="container mt-4">
+                    <div class="d-flex justify-content-between">
+                        <div>
+                            <img src="./assets/images/zomatofooter1.avif" alt="" class="img-fluid">
+                        </div>
+                        <div d-flex">
+                            <!-- Default dropup button -->
+                            <div class="btn-group dropup">
+                                <button type="button" class="btn btn-secondary dropdown-toggle"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Dropup
+                                </button>
+                                <div class="dropdown-menu">
+                                    <p>Hello</p>
+                                </div>
+                            </div>
+                            <!-- Default dropup button -->
+                            <div class="btn-group dropup">
+                                <button type="button" class="btn btn-secondary dropdown-toggle"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Dropup
+                                </button>
+                                <div class="dropdown-menu">
+                                    <p>Hello</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row row-cols-5 pt-5">
+                        <div class="col">
+                            <div class="footer-head-zom">
+                                <p>About Zomato</p>
+                            </div>
+                            <div class="footer-cat">
+                                <ul>
+                                    <li>
+                                        <a href="">Who We Are</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Who We Are</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Who We Are</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Who We Are</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <div class="col">
+                            <div class="footer-head-zom">
+                                <p>About Zomato</p>
+                            </div>
+                            <div class="footer-cat">
+                                <ul>
+                                    <li>
+                                        <a href="">Who We Are</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Who We Are</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Who We Are</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Who We Are</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <div class="col">
+                            <div class="footer-head-zom">
+                                <p>About Zomato</p>
+                            </div>
+                            <div class="footer-cat">
+                                <ul>
+                                    <li>
+                                        <a href="">Who We Are</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Who We Are</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Who We Are</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Who We Are</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <div class="col">
+                            <div class="footer-head-zom">
+                                <p>About Zomato</p>
+                            </div>
+                            <div class="footer-cat">
+                                <ul>
+                                    <li>
+                                        <a href="">Who We Are</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Who We Are</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Who We Are</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Who We Are</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <div class="col">
+                            <div class="footer-head-zom">
+                                <p>About Zomato</p>
+                            </div>
+                            <div class="footer-cat">
+                                <ul>
+                                    <li>
+                                        <a href="">Who We Are</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Who We Are</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Who We Are</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Who We Are</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- Zomato-footer-ends -->
+
+        </div>
+        <!-- content ends -->
+    </div>
+</body>
+
+</html>

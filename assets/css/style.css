@@ -32,3 +32,26 @@
     bottom: 0;
     background: white;
 } */
+
+/* .dropdown-toggle::after{
+    margin-left: 28.255em !important;
+} */
+
+.datata{
+    background: lightgray;
+    border: 1px solid gray;
+    border-radius: 7px;
+    padding: 15px;
+}
+
+.link-zom{
+    color: rgb(130, 130, 130);
+    text-decoration: none;
+    padding-right: 10px;
+}
+.zom-zom{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+

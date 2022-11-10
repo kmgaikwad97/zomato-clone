@@ -1,19 +1,19 @@
-*{
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.banner{
-    background-image: url('../images/banner.avif');
+.banner {
+  background-image: url("../images/banner.avif");
 }
-.main-box{
-    border:2px solid black;
-    width: 73%;
-    margin: auto;
-    padding: 10% 0;
+.main-box {
+  border: 2px solid black;
+  width: 73%;
+  margin: auto;
+  padding: 10% 0;
 }
-.banner-box{
-    /* background: rgb(200, 200, 200);
+.banner-box {
+  /* background: rgb(200, 200, 200);
     height: calc(100vh - 30rem);
     min-height: 27rem;
     max-height: 57rem;
@@ -21,10 +21,10 @@
     position: relative;
     overflow: hidden; */
 }
-.zom-link{
-    padding: 0 10px;
-    color: white;
-    font-size: 20px;
+.zom-link {
+  padding: 0 10px;
+  color: white;
+  font-size: 20px;
 }
 
 /* .card-data{
@@ -37,21 +37,46 @@
     margin-left: 28.255em !important;
 } */
 
-.datata{
-    background: lightgray;
-    border: 1px solid gray;
-    border-radius: 7px;
-    padding: 15px;
+.datata {
+  background: lightgray;
+  border: 1px solid gray;
+  border-radius: 7px;
+  padding: 15px;
 }
 
-.link-zom{
-    color: rgb(130, 130, 130);
-    text-decoration: none;
-    padding-right: 10px;
+.link-zom {
+  color: rgb(130, 130, 130);
+  text-decoration: none;
+  padding-right: 10px;
 }
-.zom-zom{
-    display: flex;
-    justify-content: center;
-    align-content: center;
+.zom-zom {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.footer-cat ul {
+  list-style-type: none;
+  padding: 0px;
+}
+.footer-cat ul li a {
+  text-decoration: none;
+  color: rgb(105, 105, 105);
+  font-weight: 100;
+  font-size: 14px;
+}
+.footer-cat ul li a:hover {
+  color: black;
+}
+.footer-head-zom p {
+  font-weight: 500;
+}
+.footer-icons a {
+  background: black;
+  padding: 7px;
+  border-radius: 50%;
+  font-size: 10px;
 }
 
+.footer-row .col {
+  padding: 0 5px;
+}

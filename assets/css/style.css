@@ -5,6 +5,10 @@
 }
 .banner {
   background-image: url("../images/banner.avif");
+  background-size: cover;
+}
+.boxfirst {
+  border-right: 2px solid black;
 }
 .main-box {
   border: 2px solid black;
@@ -12,6 +16,15 @@
   margin: auto;
   padding: 10% 0;
 }
+/* .main-box-sm {
+  border: 2px solid black;
+  margin: auto;
+  padding: 10% 0;
+} */
+.home-zom-head {
+  font-size: 2.1rem;
+}
+
 .banner-box {
   /* background: rgb(200, 200, 200);
     height: calc(100vh - 30rem);
@@ -79,4 +92,13 @@
 
 .footer-row .col {
   padding: 0 5px;
+}
+
+@media only screen and (max-width: 576px) {
+  .main-box {
+    width: 100%;
+  }
+  .main-box p {
+    font-size: 1.2rem;
+  }
 }
